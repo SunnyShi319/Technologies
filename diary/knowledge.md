@@ -13,5 +13,12 @@
 
 2. 页面响应式布局 **重点!**
 
-3. [开发custom sql queries](https://dev.liferay.com/develop/tutorials/-/knowledge_base/6-2/developing-custom-sql-queries)
--
+3. 开发[custom sql queries](https://dev.liferay.com/develop/tutorials/-/knowledge_base/6-2/developing-custom-sql-queries)
+
+#July 26, 2016
+1. 设置当文本溢出包含元素时想要将剩余的显示为省略号，则设置如下:
+```
+display: block;
+overflow: hidden;
+text-overflow: ellipsis;
+```
